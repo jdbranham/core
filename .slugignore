@@ -1,0 +1,51 @@
+# config/log files   #
+######################
+tomcat/conf
+bin/*.sh
+*.log
+.classpath
+.settings/*
+.project
+.idea/
+*.iml
+*.ipr
+*.iws
+tomcat/work
+tomcat/logs
+tomcat/temp
+
+# Instance Files     #
+######################
+dotCMS/dotSecure
+dotCMS/dotsecure
+dotCMS/assets
+sql/cms/dotcms_mssql-sybase.sql
+sql/cms/dotcms_mysql.sql
+sql/cms/dotcms_oracle.sql
+sql/cms/dotcms_postgresql.sql
+sql/cms/dotcms_h2.sql
+dotCMS/email_backups
+dotCMS/WEB-INF/felix/felix-cache
+dotCMS/WEB-INF/felix/osgi-extra-generated.conf
+dotCMS/WEB-INF/felix/osgi-extra.conf
+dotCMS/html/js/tinymce/jscripts/tiny_mce/*.gz
+
+_original
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Build #
+######################
+dotCMS/WEB-INF/classes/
+build/
+dotCMS/WEB-INF/generated_web.xml
+dotCMS/WEB-INF/lib/*.jar
+dotCMS/WEB-INF/felix/bundle/dot.*.jar
+dotCMS/WEB-INF/lib/plugin-*.jar
+starter.zip
+.ant-targets-build.xml
+.gradle/
